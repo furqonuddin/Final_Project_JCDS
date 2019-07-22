@@ -50,11 +50,11 @@ df = pd.read_csv(
 
 - Tabel Korelasi Heatmap:
 
-![Data](gambar/13.JPG)
+![Data](gambar/13.PNG)
 
 - Grafik Distribusi
 
-![Data](gambar/14.JPG)
+![Data](gambar/14.PNG)
 
 - Dari tabel korelasi tersebut kita dapat melihat hubungan
   - Glucose         => Insulin
@@ -193,7 +193,7 @@ joblib.dump(model, 'modelML')
 
 - Menampilkan grafik hubungan Rata-rata orang Normal dengan data Pasien
 
-![Data](gambar/12.JPG)
+![Data](gambar/12.PNG)
 
 - Tampilan Error:
 
