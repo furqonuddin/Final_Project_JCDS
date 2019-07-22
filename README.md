@@ -16,11 +16,17 @@ untuk mengambil keputusan terkait "Apakah seseorang terindikasi penyakit diabete
 df = pd.read_csv('diabetes.csv')
 ```
 - Cek Nilai NaN
+
 ![NaN](gambar/4.JPG)
+
 - Cek Tipe data
+
 ![tipedata](gambar/2.JPG)
+
 - Baca data
+
 ![Data](gambar/3.JPG)
+
 - Ubah Data 0 menjadi format "NaN"
 ```python
 df = pd.read_csv(
@@ -35,9 +41,13 @@ df = pd.read_csv(
 )
 ```
 - Cek Nilai NaN
+
 ![Data](gambar/1.JPG)
+
 - Menentukan metode pengisian nilai NaN dengan melihat tabel korelasinya:
+
 ![Data](gambar/5.JPG)
+
 - Dari tabel korelasi tersebut kita dapat melihat hubungan
   - Glucose         => Insulin
   - BloodPressure   => Age
@@ -108,7 +118,9 @@ fill_byRata2('BMI', 'Outcome')
 fill_byRata2('SkinThickness', 'BMI')
 ```
 - Cek Nilai NaN
+
 ![DataNaN](gambar/6.JPG)
+
 - Melakukan fungsi "dropna()" pada nilai NaN
 - Convert DataFrame to CSV
 ```python
@@ -129,9 +141,13 @@ y = df['Outcome']
   - Decission Tree Classifier
   - SVM
 - Hasil score Tes
+
 ![Data](gambar/7.JPG)
+
 - Hasil Score by Cross Validation
+
 ![Data](gambar/8.JPG)
+
 - Berdasarkan data tersebut diambil model Logistic Regression untuk model Machine Learning
 
 
@@ -160,8 +176,13 @@ joblib.dump(model, 'modelML')
   - hasil.html
   - error.html
 - Tampilan Awal Web:
+
 ![Data](gambar/9.JPG)
+
 - Tampilan Hasil:
+
 ![Data](gambar/10.JPG)
+
 - Tampilan Error:
+
 ![Data](gambar/11.JPG)
