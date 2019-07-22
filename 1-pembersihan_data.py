@@ -97,7 +97,7 @@ plt.yticks(rotation = 45)
 # ==============================================================================
 # from pandas.plotting import scatter_matrix
 pd.plotting.scatter_matrix(df, alpha=0.2, figsize=(25, 25), diagonal='hist')
-# plt.show()
+plt.show()
 
 # ==============================================================================
 '''

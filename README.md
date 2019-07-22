@@ -48,6 +48,14 @@ df = pd.read_csv(
 
 ![Data](gambar/5.JPG)
 
+- Tabel Korelasi Heatmap:
+
+![Data](gambar/13.JPG)
+
+- Grafik Distribusi
+
+![Data](gambar/14.JPG)
+
 - Dari tabel korelasi tersebut kita dapat melihat hubungan
   - Glucose         => Insulin
   - BloodPressure   => Age
@@ -183,6 +191,11 @@ joblib.dump(model, 'modelML')
 
 ![Data](gambar/10.JPG)
 
+- Menampilkan grafik hubungan Rata-rata orang Normal dengan data Pasien
+
+![Data](gambar/12.JPG)
+
 - Tampilan Error:
 
 ![Data](gambar/11.JPG)
+
