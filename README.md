@@ -16,12 +16,11 @@ untuk mengambil keputusan terkait "Apakah seseorang terindikasi penyakit diabete
 df = pd.read_csv('diabetes.csv')
 ```
 - Cek Nilai NaN
-<img src="gambar/4.jpg">
-![](gambar/4.jpg)
+![NaN](./gambar/4.jpg)
 - Cek Tipe data
-![tipedata](2.jpg)
+![tipedata](https://github.com/furqonuddin/Final_Project_JCDS/tree/master/gambar/2.JPG)
 - Baca data
-![Data](3.jpg)
+![Data](gambar/3.JPG)
 - Ubah Data 0 menjadi format "NaN"
 ```python
 df = pd.read_csv(
