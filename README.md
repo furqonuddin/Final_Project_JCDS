@@ -193,7 +193,7 @@ joblib.dump(model, 'modelML')
 
 - Menampilkan grafik hubungan Rata-rata orang Normal dengan data Pasien
 
-![Data](gambar/12.PNG)
+![Data](gambar/12.png)
 
 - Tampilan Error:
 
