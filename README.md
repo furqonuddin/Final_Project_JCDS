@@ -50,11 +50,11 @@ df = pd.read_csv(
 
 - Tabel Korelasi Heatmap:
 
-![Data](gambar/13.PNG)
+![Data](gambar/13.png)
 
 - Grafik Distribusi
 
-![Data](gambar/14.PNG)
+![Data](gambar/14.png)
 
 - Dari tabel korelasi tersebut kita dapat melihat hubungan
   - Glucose         => Insulin
